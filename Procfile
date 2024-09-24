@@ -1,1 +1,1 @@
-web: gunicorn aibenchmark.wsgi
+web: gunicorn ai_benchmark_backend.wsgi --log-file -
